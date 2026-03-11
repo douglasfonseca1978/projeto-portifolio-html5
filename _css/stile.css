@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-bkg: #000;
+    --color-text: #f6f6f6;
+    --color-destaque: #22D4FD;
+    --font1: 'Krona One', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+    --font-size-h1: 1.75rem;
+    --font-size-p: 1.25rem;
+    --color-gradiente: linear-gradient(45deg, #52658C, #73578D,#D1318E);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* height:100vh; */
+    box-sizing: border-box;
+    background-color: var(--color-bkg);
+    color: var(--color-text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cabecalho{
+    padding: 8px 0% 0% 15%;
+
+}
+
+.cabecalho__menu{
+display: flex;
+gap: 80px;
+
+}
+
+.cabecalho__menu__link{
+font-family: var(--font1);
+font-size: 1.5rem;/* alterado de 24px*/
+font-weight: 600;
+color: #22d4fd;
+
+}
+
+.cabecalho__menu a{
+   text-decoration: none;
+}
+
+.cabecalho__menu a:hover{
+   color: #fff;
+}
+
+
+
+.apresentacao{
+padding: 5% 15%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex: 1;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem; /* alterado de 36px */
+    font-family: var(--font1), sans-serif;
+
+}
+
+.titulo__destaque{
+    color: var(--color-destaque); 
+}
+
+
+.apresentacao__conteudo__texto{
+font-size: 1.5rem; /* alterado de 24px*/
+font-family: var(--font2), sans-serif;
+}
+
+.apresentacao__links{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+gap: 32px;
+
+}
+
+.apresentacao__links__subtitulo{
+font-family: var(--font1), sans-serif;
+font-weight: 400;
+font-size: 1.5rem;/* alterado de 24px */
+
+
+}
+
+.apresentacao__links__link{
+width: 378px;
+text-align: center;
+font-weight: 600;
+border: 2px solid var(--color-destaque);
+border-radius: 8px;
+font-size: 1.5rem;
+padding: 21.5px 0;
+text-decoration: none;
+color: var(--color-text);
+font-family: var(--font2), sans-serif;
+}
+
+.apresentacao__links__link:hover{
+    background-color: #272727;
+}
+
+.rodape{
+    background-color: var(--color-destaque);
+    color: var(--color-bkg);
+    text-align: center;
+    padding:25px 0;
+    font-family: var(--font2), sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    }
+
+.rodape a{
+   text-decoration: none;
+   color: var(--color-bkg);
+}
+
+.rodape a:hover{
+   color: var(--color-text);
+}
