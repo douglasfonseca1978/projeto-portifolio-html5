@@ -139,3 +139,8 @@ font-family: var(--font2), sans-serif;
 .rodape a:hover{
    color: var(--color-text);
 }
+
+.rodape:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
