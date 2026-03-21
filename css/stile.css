@@ -117,7 +117,7 @@ color: var(--color-text);
 font-family: var(--font2), sans-serif;
 }
 
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
     background-color: #272727;
 }
 
@@ -144,7 +144,7 @@ font-family: var(--font2), sans-serif;
    color: var(--color-text);
 }
 
-@media (max-width:678px){
+@media (max-width:768px){
     .cabecalho{
         padding: 10%;
     }
