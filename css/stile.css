@@ -144,7 +144,7 @@ font-family: var(--font2), sans-serif;
    color: var(--color-text);
 }
 
-@media (max-width:1200px){
+@media (max-width:678px){
     .cabecalho{
         padding: 10%;
     }
